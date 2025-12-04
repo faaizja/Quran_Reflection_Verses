@@ -70,7 +70,6 @@ async function fetchAndSaveVerses() {
       console.error(`Error processing verse ${verse.surah}:${verse.ayah}:`, error)
     }
   }
-
   console.log("[v0] Finished seeding verses!")
 }
 
